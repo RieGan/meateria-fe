@@ -49,7 +49,7 @@ or
 11. Change branch to master and rebase\
     `git checkout master`\
     `git pull --rebase origin master`
-12. repeat from 3 if `package-lock.json` changed, otherwise repeat from 4
+12. repeat from 3 if `package.json` changed, otherwise repeat from 4
 
 ## TODO
 - Item Page
