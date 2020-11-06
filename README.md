@@ -52,18 +52,18 @@ or
 12. repeat from 3 if `package-lock.json` changed, otherwise repeat from 4
 
 ##TODO
--[X] Landing Page
--[ ] Item Page
--[ ] Login & Register Page
--[ ] User Page:
-    -[ ] account setting
-    -[ ] order history
-    -[ ] cart
-    -[ ] checkout
--[ ] Seller Page:
-    -[ ] merchant setting
-    -[ ] add item
-    -[ ] order list
+- Item Page
+- Login & Register Page
+- User Page:
+    - account setting
+    - order history
+    - cart
+    - checkout
+- Seller Page:
+    - merchant setting
+    - add item
+    - order list
+- Passing props
     
 # Contributor
 <table>
