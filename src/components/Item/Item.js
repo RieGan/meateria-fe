@@ -7,9 +7,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import IconButton from "@material-ui/core/IconButton";
-import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
-import Button from "@material-ui/core/Button";
+// import IconButton from "@material-ui/core/IconButton";
+// import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
+// import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles({
   root: {
@@ -38,7 +38,7 @@ export default function Item(props) {
           </Typography>
           <Grid container justify="center">
             <Grid item>
-              <Button>TODO</Button>
+              <p>TODO</p>
             </Grid>
           </Grid>
         </CardContent>
