@@ -51,7 +51,7 @@ or
     `git pull --rebase origin master`
 12. repeat from 3 if `package-lock.json` changed, otherwise repeat from 4
 
-##TODO
+## TODO
 - Item Page
 - Login & Register Page
 - User Page:
