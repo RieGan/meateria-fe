@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  meateria-fe:
+    container_name: meateria-fe
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 40006:3000
+    networks:
+      - meateria
+
+networks:
+  meateria:
+    driver: bridge
